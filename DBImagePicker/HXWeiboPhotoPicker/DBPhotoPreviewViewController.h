@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DBPhotoPreviewViewController : UIViewController
+
 @property(strong,nonatomic)NSArray *photosURL;
 @property(nonatomic,assign)NSInteger currentPhotoIndex;
+
 @end
